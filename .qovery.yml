@@ -1,0 +1,11 @@
+---
+application:
+  name: "whatsapp-bot"
+  project: "whatsapp-bot"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-whatsapp-bot"
+  routes:
+  - application_name: "whatsapp-bot"
+    paths:
+    - "/*"
