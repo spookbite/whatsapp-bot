@@ -1015,7 +1015,7 @@ module.exports = msgHandler = async (client, message) => {
             case "!info":
                 client.sendLinkWithAutoPreview(
                     chatId,
-                    "https://github.com/adityaag121/whatsapp-bot",
+                    "https://github.com/spookbite/whatsapp-bot",
                     info
                 );
                 break;
